@@ -34,4 +34,4 @@ for num in my_nums:
     if num in win_nums:
         guesses += 1
 
-print("You've guessed", guesses, "numbers")
+print(f"You've guessed {guesses} {'number' if guesses ==  1 else 'numbers'}")
